@@ -19,7 +19,8 @@ class ViewController: UIViewController {
 
     
     @IBAction func myButton(_ sender: Any) {
-        
+        myLabel.backgroundColor = UIColor.white
+        myLabel.text = "start"
     }
     
 }
